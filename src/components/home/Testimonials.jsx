@@ -1,25 +1,34 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from 'react';
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// import styles bundle
 import 'swiper/css/bundle';
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Testimonials() {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-      fetch('http://localhost:5173/public/carousel2.json')
-        .then((response) => response.json())
-        .then(setData);
-    }, []);
-  
-    if (!data || !data.length) return null;
+    
+    const carousel2 = [
+        {
+          "id": "1",
+          "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+          "name": "Lucy Campbell" ,
+          "charge": "CEO & Co-founder" ,
+          "image": "src/img/testimonial1.jpg"
+        },
+        {
+          "id": "2",
+          "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+          "name": "Carter Willis" ,
+          "charge": "Co-founder" ,
+          "image": "src/img/carousel1.jpg"
+        },
+        {
+          "id": "3",
+          "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+          "name": "Emilly Bliender" ,
+          "charge": "Co-founder" ,
+          "image": "src/img/straightforward.jpg"
+        }
+      ]
 
   return (
     <div className='bg-white/95 pb-20 border-t-2 border-white/95'>
@@ -46,7 +55,7 @@ export default function Testimonials() {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    {data.map((item) => {
+                    {carousel2.map((item) => {
                         return(
                             <SwiperSlide key={item.id}>
                                 <div className="bg-white rounded-lg md:flex">

@@ -1,19 +1,36 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from 'react';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 export default function CaseStudies({title}) {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-      fetch('http://localhost:5173/public/carousel1.json')
-        .then((response) => response.json())
-        .then(setData);
-    }, []);
-  
-    if (!data || !data.length) return null;
+    const carousel1 = [
+      {
+        "id": "1",
+        "name": "Behind the word mountains" ,
+        "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "image": "src/img/carousel1.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Behind the word mountains" ,
+        "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "image": "src/img/carousel2.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Behind the word mountains" ,
+        "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "image": "src/img/carousel3.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Behind the word mountains" ,
+        "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "image": "src/img/carousel4.jpg"
+      }
+    ]
 
     function SampleNextArrow(props) {
         const {onClick} = props;
@@ -87,7 +104,7 @@ export default function CaseStudies({title}) {
             <div className="scroll-smooth pt-14 px-10">
                 <div>
                     <Slider {...settings}>
-                        {data.map((item) => {
+                        {carousel1.map((item) => {
                         return(
                             <div key={item.id} className="bg-white rounded-lg border">
                                 <div>
@@ -102,10 +119,10 @@ export default function CaseStudies({title}) {
                                     </p>
                                 </div>
                             </div>
-                        )
-                    })}
+                          )
+                        })}
                     </Slider>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
