@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   const navItems = [
-    { id: 1, title: 'Home', to: "/financing-react"},
+    { id: 1, title: 'Home', to: "/"},
     { id: 2, title: 'Blog', to: "/financing-react/blog"},
     { id: 3, title: 'Services', to: "/financing-react/services"},
     { id: 4, title: 'About', to: "/financing-react/about"},

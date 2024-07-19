@@ -11,8 +11,8 @@ export function Router() {
     return (
         <Routes>
             <Route path='/financing-react' element={<DefaultLayout />}>
-                <Route path='/financing-react' element={<Home />} />
-                <Route path='/financing-react/blog' element={<Blog />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/blog' element={<Blog />} />
                 <Route path='/financing-react/services' element={<Services />} />
                 <Route path='/financing-react/about' element={<About />} />
                 <Route path='/financing-react/contact' element={<Contact />} />
