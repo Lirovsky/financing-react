@@ -1,0 +1,26 @@
+[
+    {
+      "id": "1",
+      "name": "Behind the word mountains" ,
+      "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "image": "src/img/carousel1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Behind the word mountains" ,
+      "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "image": "src/img/carousel2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Behind the word mountains" ,
+      "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "image": "src/img/carousel3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Behind the word mountains" ,
+      "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "image": "src/img/carousel4.jpg"
+    }
+  ]
