@@ -10,13 +10,13 @@ import BlogSingle from './pages/BlogSingle'
 export function Router() {
     return (
         <Routes>
-            <Route path='/financing-react' element={<DefaultLayout />}>
-                <Route path='/financing-react' element={<Home />} />
+            <Route path='/' element={<DefaultLayout />}>
+                <Route path='/' element={<Home />} />
                 <Route path='/blog' element={<Blog />} />
-                <Route path='/financing-react/services' element={<Services />} />
-                <Route path='/financing-react/about' element={<About />} />
-                <Route path='/financing-react/contact' element={<Contact />} />
-                <Route path='/financing-react/blogsingle' element={<BlogSingle />} />
+                <Route path='/services' element={<Services />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/contact' element={<Contact />} />
+                <Route path='/blogsingle' element={<BlogSingle />} />
             </Route>
         </Routes>
     )

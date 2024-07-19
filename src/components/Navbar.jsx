@@ -13,10 +13,10 @@ export default function Navbar() {
 
   const navItems = [
     { id: 1, title: 'Home', to: "/"},
-    { id: 2, title: 'Blog', to: "/financing-react/blog"},
-    { id: 3, title: 'Services', to: "/financing-react/services"},
-    { id: 4, title: 'About', to: "/financing-react/about"},
-    { id: 5, title: 'Contact Us', to: "/financing-react/contact"},
+    { id: 2, title: 'Blog', to: "/blog"},
+    { id: 3, title: 'Services', to: "/services"},
+    { id: 4, title: 'About', to: "/about"},
+    { id: 5, title: 'Contact Us', to: "/contact"},
   ];
 
   return (
