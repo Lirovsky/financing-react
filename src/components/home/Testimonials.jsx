@@ -64,7 +64,7 @@ export default function Testimonials() {
                             <SwiperSlide key={item.id}>
                                 <div className="bg-white rounded-lg md:flex">
                                     <div>
-                                        <img src={item.image} className='h-96 w-full md:h-full'/>
+                                        <img src={item.image} className='h-auto w-full md:h-full'/>
                                     </div>
                                     <div className="flex flex-col justify-evenly p-10 gap-5 md:p-20 md:w-10/12 lg:w-8/12">
                                         <p className="italic">
