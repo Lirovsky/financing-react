@@ -1,42 +1,47 @@
+import Image1 from "../../../public/img/person1.jpg"
+import Image2 from "../../../public/img/person2.jpg"
+import Image3 from "../../../public/img/person3.jpg"
+import Image4 from "../../../public/img/person4.jpg"
+import Image5 from "../../../public/img/person5.jpg"
 
 export default function OurTeam() {
-    
+
   const cards = [
     {
       id: 1,
       name: "James Griffin" ,
       about: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      image: "src/img/person1.jpg",
+      image: Image1
     },
     {
       id: 2,
       name: "Claire Smith" ,
       about: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      image: "src/img/person2.jpg",
+      image: Image2
     },
     {
       id: 3,
       name: "Jessica Wilson" ,
       about: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      image: "src/img/person3.jpg",
+      image: Image3
     },
     {
       id: 4,
       name: "William Anderson" ,
       about: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      image: "src/img/person4.jpg",
+      image: Image4
     },
     {
       id: 5,
       name: "Julie Harvey" ,
       about: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      image: "src/img/person5.jpg",
+      image: Image5
     },
     {
       id: 6,
       name: "Shana Clarkson" ,
       about: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      image: "src/img/person1.jpg",
+      image: Image1
     },
 
   ];

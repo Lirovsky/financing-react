@@ -1,5 +1,5 @@
 import { FaEnvelope, FaChartPie, FaBagShopping } from "react-icons/fa6";
-import StraightForwardImg from '../../img/straightforward.jpg'
+import StraightForwardImg from '../../../public/img/straightforward.jpg'
 
 export default function StraightForward() {
 

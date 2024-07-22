@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import HeaderImg from '../../img/header.jpg'
+import HeaderImg from '../../../public/img/header.jpg'
 
 export default function Header() {
     return(

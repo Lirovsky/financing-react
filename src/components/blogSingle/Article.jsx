@@ -1,4 +1,4 @@
-import BlogImg from '../../img/carousel1.jpg'
+import BlogImg from '../../../public/img/carousel1.jpg'
 
 
 export default function Article() {

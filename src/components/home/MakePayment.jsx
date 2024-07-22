@@ -1,5 +1,5 @@
 import { FaEnvelope, FaChartPie } from "react-icons/fa6";
-import MakePaymentImg from '../../img/makepayment.jpg'
+import MakePaymentImg from '../../../public/img/makepayment.jpg'
 
 export default function MakePayment() {
 

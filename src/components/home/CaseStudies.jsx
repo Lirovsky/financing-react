@@ -4,31 +4,36 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import Image1 from "../../../public/img/carousel1.jpg"
+import Image2 from "../../../public/img/carousel2.jpg"
+import Image3 from "../../../public/img/carousel3.jpg"
+import Image4 from "../../../public/img/carousel4.jpg"
+
 export default function CaseStudies({title}) {
     const carousel1 = [
       {
         "id": "1",
         "name": "Behind the word mountains" ,
         "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        "image": "src/img/carousel1.jpg"
+        "image": Image1
       },
       {
         "id": "2",
         "name": "Behind the word mountains" ,
         "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        "image": "src/img/carousel2.jpg"
+        "image": Image2
       },
       {
         "id": "3",
         "name": "Behind the word mountains" ,
         "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        "image": "src/img/carousel3.jpg"
+        "image": Image3
       },
       {
         "id": "4",
         "name": "Behind the word mountains" ,
         "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        "image": "src/img/carousel4.jpg"
+        "image": Image4
       }
     ]
 

@@ -4,6 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
+import Image1 from "../../../public/img/testimonial1.jpg"
+import Image2 from "../../../public/img/carousel1.jpg"
+import Image3 from "../../../public/img/straightforward.jpg"
+
 export default function Testimonials() {
     
     const carousel2 = [
@@ -12,21 +16,21 @@ export default function Testimonials() {
           "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
           "name": "Lucy Campbell" ,
           "charge": "CEO & Co-founder" ,
-          "image": "src/img/testimonial1.jpg"
+          "image": Image1
         },
         {
           "id": "2",
           "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
           "name": "Carter Willis" ,
           "charge": "Co-founder" ,
-          "image": "src/img/carousel1.jpg"
+          "image": Image2
         },
         {
           "id": "3",
           "paragraph": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
           "name": "Emilly Bliender" ,
           "charge": "Co-founder" ,
-          "image": "src/img/straightforward.jpg"
+          "image": Image3
         }
       ]
 
